@@ -1,1 +1,6 @@
-import tkinter
+import tkinter as tk
+
+root = tk.Tk()
+root.title("snake")
+
+root.mainloop()
