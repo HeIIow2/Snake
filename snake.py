@@ -16,7 +16,10 @@ class GUI:
 
         self.image = ImageTk.PhotoImage(self.grid.draw(10, 10, 1))
         self.img_label.config(image=self.image)
-    def 
+
+    def render(self):
+        pass
+
 
 root = tk.Tk()
 root.title("snake")
